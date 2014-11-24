@@ -120,3 +120,18 @@ body {
 	display: none;
 	background: #fafafa;
 }
+
+.dropdown li.active > a {
+  color: #fff;
+  background-color: #428bca;
+}
+.dropdown li.active > a:hover{
+  background-color: #529bda;
+}
+
+#mobile_menu {
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-left: 20px;
+}
