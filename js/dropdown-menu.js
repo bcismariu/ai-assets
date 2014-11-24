@@ -22,7 +22,6 @@ $(function() {
 });
 
 function aiMenuSlide(element) {
-	console.log(element);
 	if (!element.is(':visible'))
 		element.slideDown('fast');
 	else
